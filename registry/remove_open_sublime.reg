@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\*\shell\sublimetext]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\sublimetext]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\sublimetext]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\sublimetext]

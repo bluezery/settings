@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\sourcetree]
+@="Open with SoureTree"
+"Icon"="%USERPROFILE%\\AppData\\Local\\SourceTree\\app.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\sourcetree\command]
+@="C:\\Users\\bluez\\AppData\\Local\\SourceTree\\SourceTree.exe -f %V"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\sourcetree]
+@="Open with SoureTree"
+"Icon"="%USERPROFILE%\\AppData\\Local\\SourceTree\\app.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\sourcetree\command]
+@="C:\\Users\\bluez\\AppData\\Local\\SourceTree\\SourceTree.exe -f %V"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\sourcetree]
+@="Open with SoureTree"
+"Icon"="%USERPROFILE%\\AppData\\Local\\SourceTree\\app.ico"
+
+[HKEY_CLASSES_ROOT\Drive\shell\sourcetree\command]
+@="C:\\Users\\bluez\\AppData\\Local\\SourceTree\\SourceTree.exe -f %V"
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\sourcetree]
+@="Open with SoureTree"
+"Icon"="%USERPROFILE%\\AppData\\Local\\SourceTree\\app.ico"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\sourcetree\command]
+@="C:\\Users\\bluez\\AppData\\Local\\SourceTree\\SourceTree.exe -f %V"

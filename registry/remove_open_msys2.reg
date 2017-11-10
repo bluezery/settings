@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\msys2]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\msys2]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\msys2]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\msys2]

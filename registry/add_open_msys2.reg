@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2]
+@="Open with MSYS2"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2\command]
+@="c:\\msys64\\usr\\bin\\mintty.exe /bin/sh -lc 'cd \"$(cygpath \"%V\")\"; CHERE_INVOKING=1 exec bash --login'"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2]
+@="Open with MSYS2"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2\command]
+@="c:\\msys64\\usr\\bin\\mintty.exe /bin/sh -lc 'cd \"$(cygpath \"%V\")\"; CHERE_INVOKING=1 exec bash --login'"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\msys2]
+@="Open with MSYS2"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\Drive\shell\msys2\command]
+@="c:\\msys64\\usr\\bin\\mintty.exe /bin/sh -lc 'cd \"$(cygpath \"%V\")\"; CHERE_INVOKING=1 exec bash --login'"
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\msys2]
+@="Open with MSYS2"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\msys2\command]
+@="c:\\msys64\\usr\\bin\\mintty.exe /bin/sh -lc 'cd \"$(cygpath \"%V\")\"; CHERE_INVOKING=1 exec bash --login'"

@@ -1,0 +1,73 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\mycmd]
+@="Open with cmd"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mycmd"
+
+[HKEY_CLASSES_ROOT\Directory\shell\mycmd]
+@="Open with cmd"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mycmd"
+
+[HKEY_CLASSES_ROOT\Drive\shell\mycmd]
+@="Open with cmd"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mycmd"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\mycmd]
+@="Open with cmd"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mycmd"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mycmd\shell\open]
+@="without Elevated"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mycmd\shell\open\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mycmd\shell\runas]
+@="with Elevated"
+"Icon"="cmd.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mycmd\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\mypowershell]
+@="Open with PowerShell"
+"Icon"="powershell.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mypowershell"
+
+[HKEY_CLASSES_ROOT\Directory\shell\mypowershell]
+@="Open with PowerShell"
+"Icon"="powershell.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mypowershell"
+
+[HKEY_CLASSES_ROOT\Drive\shell\mypowershell]
+@="Open with PowerShell"
+"Icon"="powershell.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mypowershell"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\mypowershell]
+@="Open with PowerShell"
+"Icon"="powershell.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\mypowershell"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mypowershell\shell\open]
+@="without Elevated"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mypowershell\shell\open\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mypowershell\shell\runas]
+@="with Elevated"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\mypowershell\shell\runas\command]
+@="powershell.exe -noexit -command Set-Location '%V'"

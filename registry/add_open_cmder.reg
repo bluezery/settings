@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmder]
+@="Open with cmder"
+"Icon"="c:\\cmder\\cmder.exe,0"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\cmder"
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmder]
+@="Open with cmder"
+"Icon"="c:\\cmder\\cmder.exe,0"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\cmder"
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmder]
+@="Open with cmder"
+"Icon"="c:\\cmder\\cmder.exe,0"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\cmder"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\cmder]
+@="Open with cmder"
+"Icon"="c:\\cmder\\cmder.exe,0"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\cmder"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\cmder\shell\open]
+@="without Elevated"
+"Icon"="c:\\cmder\\cmder.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\cmder\shell\open\command]
+@="c:\\cmder\\cmder.exe \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\cmder\shell\runas]
+@="with Elevated"
+"Icon"="c:\\cmder\\cmder.exe,0"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\cmder\shell\runas\command]
+@="c:\\cmder\\cmder.exe \"%V\""
